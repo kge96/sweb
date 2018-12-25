@@ -12,4 +12,14 @@
         <servlet-name>SimpleServlet</servlet-name>
         <url-pattern>/simple</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SimpleJsp</servlet-name>
+        <jsp-file>/simpleJsp.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SimpleJsp</servlet-name>
+        <url-pattern>/simple-jsp</url-pattern>
+    </servlet-mapping>
+
 </web-app>
